@@ -1,5 +1,5 @@
 const studentAPI = 'https://appleseed-wa.herokuapp.com/api/users/';
-const weatherAPi = 'http://api.openweathermap.org/data/2.5/weather?q='
+const weatherAPi = 'https://api.openweathermap.org/data/2.5/weather?q='
 const weatherAPIappid = '&appid=7e8ebb0f6b5f27514ded7844e46b2832&units=metric'
 const table = document.querySelector('table');
 const search = document.querySelector('.search')
@@ -240,7 +240,7 @@ const createCityWeatherObj = async () => {
     }
 }
 
-createCityWeatherObj();
+ createCityWeatherObj();
 
 
 const applySearch = (letter , prop) =>{
