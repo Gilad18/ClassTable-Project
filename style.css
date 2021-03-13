@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(36, 36, 36);
+    }
+
+    input:focus , button:focus , select:focus{
+        outline: none;
+    }
+
+    .tableSearchBar{
+        width: 100%;
+        height: 5%;
+        color: white;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1%;
+    }
+
+table {
+    background-color: rgb(248, 246, 244);
+    min-width: 90vw;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin: 25px 0;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+select {
+    height: 100%;
+    font-size: inherit;
+    border: 2px #009879 solid;
+}
+
+.search{
+    width: 30%;
+    height: 100%;
+    font-size: inherit;
+    border: 2px #009879 solid;
+    box-sizing: border-box;
+}
+
+th{
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+}
+
+td{
+    padding: 12px 15px;
+    text-align: left;
+}
+tr{
+    border-bottom: 1px solid rgb(218, 217, 217);
+}
+tr:last-of-type {
+    border-bottom: solid 2px #009879;
+}
+
+tr:hover{
+    font-weight: bold;
+}
+
+.delete{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(201, 9, 9);
+    border: none;
+    color: white;
+}
+.delete:hover{
+    opacity: 0.65;
+    cursor: pointer;
+}
+.edit {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(170, 214, 180);
+    border: none;
+    margin-right: 0.5em;
+}
+.edit:hover{
+    opacity: 0.65;
+    cursor: pointer;
+}
+
+table input{
+    width: 50%;
+}
+
